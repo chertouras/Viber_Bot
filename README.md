@@ -25,7 +25,7 @@
     "event_types":["subscribed", "delivered","conversation_started"]
     } 
     ```
-	Ενδεικτικά η κλήση μέσα από το περιβάλλον του POSTMAN εμφανίζεται στις δύο παρακάτω οθόνες: 
+	Ενδεικτικά η κλήση μέσα από το περιβάλλον του **[POSTMAN](https://www.postman.com/downloads/) εμφανίζεται στις δύο παρακάτω οθόνες: 
 	- ![Screenshot εισαγωγής του X-Viber-Auth-Token](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/x_auth.png) 
 	και	
 	- ![!Screenshot αποστολής του url του Bot](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/url.png)  
