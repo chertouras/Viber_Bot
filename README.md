@@ -17,10 +17,13 @@
  <br/>Ενδεικτικά :
  ![Screenshot περιβάλλοντος Viber Developer](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/viber_admin.png) 
  
- - Eγκαθίσταται ο Server Side κώδικας του Bot σε οποιονδήποτε webserver υποστηρίζει το πρωτόκολλο https. Στην περίπτωση του συγκεκριμένου bot, αυτό εγκαταστάθηκε στις υποδομές του webhost.sch.gr, στο καινούργιο περιβάλλον του ΠΣΔ, όπου υποστηρίζεται πλέον η παροχή SSL/TLS δωρεάν πιστοποιητικού μέσα από το control panel του χρήστη.
+ - Eγκαθίσταται ο Server Side κώδικας του Bot σε οποιονδήποτε webserver υποστηρίζει το πρωτόκολλο https. Στην περίπτωση του συγκεκριμένου bot, 
+ αυτό εγκαταστάθηκε στις υποδομές του https://webhost.sch.gr, στο καινούργιο περιβάλλον του ΠΣΔ, 
+ όπου υποστηρίζεται πλέον η παροχή SSL/TLS δωρεάν πιστοποιητικού μέσα από το control panel του χρήστη.
  
- - To Viber ενημερώνεται με μια κλήση HTTP POST για την ύπαρξη της εφαρμογής και την ακριβή τοποθεσία του κώδικα του bot. Το συγκεκριμένο καθήκον μπορεί να γίνει με το εργαλείο [POSTMAN](https://www.postman.com/downloads/)** και η κλήση POST πρέπει να έχει τα εξής στοιχεία  :
-     -  Έναν **HTTP Header** της μορφής: **X-Viber-Auth-Token** με τιμή το κλειδί του χρήστη που λήφθηκε από το https://partners.viber.com
+ - To Viber ενημερώνεται με μια κλήση HTTP POST για την ύπαρξη της εφαρμογής και την ακριβή τοποθεσία του κώδικα του bot. 
+ Το συγκεκριμένο καθήκον μπορεί να γίνει με το εργαλείο [POSTMAN](https://www.postman.com/downloads/)** και η κλήση HTTP POST πρέπει να έχει τα εξής στοιχεία  :**
+     - Έναν **HTTP Header** της μορφής: **X-Viber-Auth-Token** με τιμή το κλειδί**(token)** του χρήστη που υπάρχει στον developer account που δημιουργείται στο https://partners.viber.com
      - To εξής **raw** κομμάτι στο Body του **POST request** : 
      ```
      {
