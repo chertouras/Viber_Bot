@@ -14,7 +14,7 @@
 Η αρχιτεκτονική λειτουργίας συνοψίζεται στα εξής:
  - **Σημαντικό:** Είναι απολύτως απαραίτητη η μελέτη του Viber REST API Developers Documentation που είναι διαθέσιμο **[εδώ](https://developers.viber.com/docs/api/rest-bot-api/)**. 
  - Ως πρώτο βήμα απαιτείται η δημιουργία ενός Developer Account στο Viber όπου και δημιουργείται η εφαρμογή ως project στο viber και παρέχεται και το ειδικό κλειδί **token** με το οποίο θα γίνονται οι κλήσεις για service στην πλατφόρμα του Viber.
- Ενδεικτικά :
+ <br/>Ενδεικτικά :
  ![Screenshot περιβάλλοντος Viber Developer](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/viber_admin.png) 
  
  - Eγκαθίσταται ο Server Side κώδικας του Bot σε οποιονδήποτε webserver υποστηρίζει το πρωτόκολλο https. Στην περίπτωση του συγκεκριμένου bot, αυτό εγκαταστάθηκε στις υποδομές του webhost.sch.gr, στο καινούργιο περιβάλλον του ΠΣΔ, όπου υποστηρίζεται πλέον η παροχή SSL/TLS δωρεάν πιστοποιητικού μέσα από το control panel του χρήστη.
