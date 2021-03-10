@@ -26,9 +26,9 @@
     } 
     ```
 	Ενδεικτικά η κλήση εμφανίζεται στις δύο παρακάτω οθόνες: 
-	![QR CODE](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/x_auth.png) 
+	- ![Screenshot εισαγωγής του X-Viber-Auth-Token](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/x_auth.png) 
 	και	
-	![QR CODE](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/url.png)  
+	![!Screenshot αποστολής του url του Bot](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/url.png)  
 	
 Όπου **'xxxxxxxxxxxxxxxx.php'** η ακριβής διεύθυνση της θέσης οπου βρίσκεται ο κώδικας του Bot.
      Για τα event_types που εμφανίζονται στο παραπάνω json απόσπασμα υπάρχουν λεπτομέρειες στο documentation του Viber.
