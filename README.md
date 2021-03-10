@@ -16,7 +16,7 @@
  - Ως πρώτο βήμα απαιτείται η δημιουργία ενός Developer Account στο Viber όπου και δημιουργείται η εφαρμογή ως project στο viber και παρέχεται και το ειδικό κλειδί με το οποίο θα γίνονται οι κλήσεις για service στην πλατφόρμα του Viber.
  
   - Eγκαθίσταται ο Server Side κώδικας του Bot σε οποιονδήποτε webserver υποστηρίζει το πρωτόκολλο https. Στην περίπτωση του συγκεκριμένου bot, αυτό εγκαταστάθηκε στις υποδομές του webhost.sch.gr, στο καινούργιο περιβάλλον του ΠΣΔ, όπου υποστηρίζεται πλέον η παροχή SSL/TLS δωρεάν πιστοποιητικού μέσα από το control panel του χρήστη.
- - To Viber ενημερώνεται με μια κλήση HTTP POST για την ύπαρξη της εφαρμογής και την ακριβή τοποθεσία του κώδικα του bot. Το συγκεκριμένο καθήκον πορεί να γίνει με το εργαλείο  **[POSTMAN](https://www.postman.com/downloads/)** και η κλήση POST πρέπει να έχει τα εξής στοιχεία  :
+ - To Viber ενημερώνεται με μια κλήση HTTP POST για την ύπαρξη της εφαρμογής και την ακριβή τοποθεσία του κώδικα του bot. Το συγκεκριμένο καθήκον μπορεί να γίνει με το εργαλείο  **[POSTMAN](https://www.postman.com/downloads/)** και η κλήση POST πρέπει να έχει τα εξής στοιχεία  :
      -  Έναν **HTTP Header** της μορφής: **X-Viber-Auth-Token** με τιμή το κλειδί του χρήστη που λήφθηκε από το partners.viber.com
      - To εξής **raw** κομμάτι στο Body του **POST request** : 
      ```
@@ -25,6 +25,11 @@
     "event_types":["subscribed", "delivered","conversation_started"]
     } 
     ```
+	Ενδεικτικά η κλήση εμφανίζεται στις δύο παρακάτω οθόνες: 
+	![QR CODE](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/x_auth.png) 
+	και	
+	![QR CODE](http://chertour.sites.sch.gr/viber_bot/github_documentation_images/url.png)  
+	
 Όπου **'xxxxxxxxxxxxxxxx.php'** η ακριβής διεύθυνση της θέσης οπου βρίσκεται ο κώδικας του Bot.
      Για τα event_types που εμφανίζονται στο παραπάνω json απόσπασμα υπάρχουν λεπτομέρειες στο documentation του Viber.
 
